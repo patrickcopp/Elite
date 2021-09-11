@@ -14,6 +14,5 @@ class Solution:
                 print(current_min,current_max)
             else:
                 current_max = max(intervals[i][1], current_max)
-                current_min = min(intervals[i][0], current_min)
         res.append([current_min, current_max])
         return res
