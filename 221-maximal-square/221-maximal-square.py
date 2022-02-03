@@ -4,7 +4,6 @@ class Solution:
             for j in range(len(matrix[0])):
                 matrix[i][j] = int(matrix[i][j])
         high = 0
-        print(type(matrix[0][0]))
         for i in range(len(matrix)):
             for j in range(len(matrix[0])):
                 if matrix[i][j] == 1 and i - 1 >= 0 and j - 1 >= 0:
